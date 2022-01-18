@@ -4,4 +4,4 @@ const page=(
         <p>This is a paragraph</p>
     </div>
 )
-ReactDom.render()
+ReactDom.render(page, document.getElementById("root"));
